@@ -128,6 +128,9 @@ public class App {
                     System.out.println("Opção inválida!");
                     break;
             }
+            
+            scanner.close();       
         }
     }
+    
 }
